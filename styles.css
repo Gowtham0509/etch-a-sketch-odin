@@ -12,8 +12,8 @@ body {
 }
 .grid-item {
     /* background-color:black; */
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     margin: 1px;
     box-sizing: border-box  ;
     border: 1px solid black;
