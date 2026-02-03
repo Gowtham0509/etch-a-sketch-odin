@@ -1,14 +1,20 @@
-body {
+body{
+    font-family: bangers;
+    background-color: #EDFFF0;
+}
+
+.grid-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     width: 512px;
+    background-color: white;
 }
 .grid-item {
     /* background-color:black; */
@@ -19,6 +25,27 @@ body {
     border: 1px solid black;
 }
 
-/* .grid-item:hover {
-    background-color: blue;
-} */
+.header h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.resetColors {
+    background-color: #F63049;
+}
+
+.getUserInput {
+    background-color: #A8DF8E;
+}
+
+.resetColors, .getUserInput {
+    border-radius: 3px;
+    padding: 5px;
+    font-family: bangers;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.btns {
+    text-align: center;
+}
